@@ -12,9 +12,24 @@ Designed with a **dark theme** and a simple **reservation form**.
 
 - 🖤 Modern dark theme design  
 - 📱 Fully responsive layout for all devices  
-- 📅 Reservation form with date input  
+- 📅 Reservation form using **Formspree** for email submissions  
 - 🎨 Clean and minimal UI  
 - ⚡ Built with pure HTML, CSS, and JS (no frameworks)
+
+---
+
+## 📬 Contact Form
+
+The reservation form is connected to [Formspree](https://formspree.io/), a service that allows sending form submissions directly to an email address without backend code.
+
+Example of the integration:
+```html
+<form action="https://formspree.io/f/your-id" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Your Email" required />
+  <button type="submit">Send</button>
+</form>
+```
 
 ---
 
