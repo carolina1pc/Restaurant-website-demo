@@ -3,6 +3,9 @@
 A modern and responsive restaurant website built with **HTML**, **CSS**, and **JavaScript**.  
 Designed with a **dark theme** and a simple **reservation form**.
 
+<img width="1406" height="852" alt="image" src="https://github.com/user-attachments/assets/d3d55e48-9884-4bd1-84aa-868cc0213732" />
+
+
 ---
 
 ## ✨ Features
@@ -18,8 +21,7 @@ Designed with a **dark theme** and a simple **reservation form**.
 ## 🖥️ Preview
 
 You can view the live demo here:  
-👉 [https://USERNAME.github.io/restaurant-demo/](https://USERNAME.github.io/restaurant-demo/)  
-*(replace USERNAME with your GitHub username)*
+👉 
 
 ---
 
@@ -29,7 +31,6 @@ You can view the live demo here:
 - **CSS3**
 - **JavaScript (Vanilla)**
 - **Google Fonts** (Poppins / Montserrat)
-- *(optional: Bootstrap, dacă ai folosit)*
 
 ---
 
@@ -45,3 +46,13 @@ git clone https://github.com/USERNAME/restaurant-demo.git
 cd restaurant-demo
 
 # Open index.html in your browser
+```
+---
+
+## Screenshots
+
+<img width="1375" height="615" alt="image" src="https://github.com/user-attachments/assets/49c9bb61-3efb-4578-b398-c4aaa8caf8b8" />
+
+<img width="1392" height="821" alt="image" src="https://github.com/user-attachments/assets/9e238a43-fe82-443a-9e77-fe0c4c955113" />
+
+<img width="1396" height="807" alt="image" src="https://github.com/user-attachments/assets/464c7be2-da70-49d2-8c47-b2b70e109c8c" />
