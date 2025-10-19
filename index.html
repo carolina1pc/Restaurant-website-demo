@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-translate="title"></title>
+  <link rel="stylesheet" href="navbar-style.css" />
+  <link rel="stylesheet" href="home-container-style.css" />
+  <link rel="stylesheet" href="footer-style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+    <nav class="navbar">
+    <img class="logo" src="./images/icons8-restaurant-100.png" alt="logo" />
+    <div class="right-items">
+    <div class="lang-switch">
+        <button class="ro-button" onclick="setLanguage('ro')">RO</button>
+        <button class="en-button" onclick="setLanguage('en')">EN</button>
+    </div>
+    <button class="hamburger" onclick="toggleMenu()">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" data-translate="navHome"></a></li>
+      <li><a href="Menu/menu.html" data-translate="navMenu"></a></li>
+      <li><a href="Reservations/reservations.html" data-translate="navReservations"></a></li>
+      <li><a href="#footer" data-translate="navContact"></a></li>
+    </ul>
+    </div>
+    </nav>
+    </header>
+
+    <main>
+        <div class="home-container">
+            <div id="background-container">
+            <section class="home-text-container">
+                <h1 data-translate="homeTitle"></h1>
+                <p data-translate="homeSubtitle"></p>
+            </section>
+            </div>
+            <section class="about-container">
+                <h2 data-translate="aboutTitle"></h2>
+                <p data-translate="aboutText"></p>
+                <a href="Menu/menu.html" class="menu-button" data-translate="navMenu"></a>
+                <div class="about-img">
+                    <img class="about-img-items" src="images/lounge.jpg" alt="Image 1" />
+                    <img class="about-img-items" src="images/index.webp" alt="Image 2" />
+                    <img class="about-img-items" src="images/preparate-de-top-si-wine-pairing-la-un-faimos-restaurant-din-sibiu.jpg" alt="Image 3" />
+                </div>
+            </section>
+            <section class="events-container">
+                <h2 data-translate="eventsTitle"></h2>
+                <div class="events-items-container">
+                    <div class="event-items">
+                        <img class="events-img-items" src="images/wedding.jpg" alt="Wedding" />
+                        <span class="events-text-container">
+                            <h3 data-translate="weddingTitle"></h3>
+                            <p data-translate="weddingText"></p>
+                        </span>
+                    </div>
+                    <div class="event-items">
+                        <span class="events-text-container">
+                            <h3 data-translate="corporateTitle"></h3>
+                            <p data-translate="corporateText"></p>
+                        </span>
+                        <img class="events-img-items" src="images/corporate.jpg" alt="Corporate" />
+                    </div>
+                    <div class="event-items">
+                        <img class="events-img-items" src="images/gratuations.webp" alt="Graduations" />
+                        <span class="events-text-container">
+                            <h3 data-translate="graduationsTitle"></h3>
+                            <p data-translate="graduationsText"></p>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="events-items-container-mobile">
+                    <div class="event-items">
+                        <span class="events-text-container">
+                            <h3 data-translate="weddingTitle"></h3>
+                            <p data-translate="weddingText"></p>
+                        </span>
+                        <span class="events-img-items-container">
+                        <img class="events-img-items" src="images/wedding.jpg" alt="Wedding" /></span>
+                    </div>
+                    <div class="event-items">
+                        <span class="events-text-container">
+                            <h3 data-translate="corporateTitle"></h3>
+                            <p data-translate="corporateText"></p>
+                        </span>
+                        <span class="events-img-items-container">
+                        <img class="events-img-items" src="images/corporate.jpg" alt="Corporate" /></span>
+                    </div>
+                    <div class="event-items">
+                        <span class="events-text-container">
+                            <h3 data-translate="graduationsTitle"></h3>
+                            <p data-translate="graduationsText"></p>
+                        </span>
+                        <span class="events-img-items-container">
+                        <img class="events-img-items" src="images/gratuations.webp" alt="Graduations" /></span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3 data-translate="footerContactTitle"></h3>
+                <p data-translate="footerAddress"></p>
+                <p data-translate="footerPhone"></p>
+                <p data-translate="footerEmail"></p>
+            </div>
+            <div class="footer-section">
+                <h3 data-translate="footerHoursTitle"></h3>
+                <p data-translate="footerHoursWeekdays"></p>
+                <p data-translate="footerHoursWeekend"></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-translate="footerText"></p>
+        </div>
+    </footer>
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+    <script src="background.js" defer></script>
+</body>
+</html>

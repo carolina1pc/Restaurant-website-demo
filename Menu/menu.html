@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-translate="navMenu"></title>
+  <link rel="stylesheet" href="./../navbar-style.css" />
+  <link rel="stylesheet" href="menu-style.css" />
+  <link rel="stylesheet" href="./../footer-style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+    <img class="logo" src="./../images/icons8-restaurant-100.png" alt="logo" />
+    <div class="right-items">
+    <div class="lang-switch">
+        <button class="ro-button" onclick="setLanguage('ro')">RO</button>
+        <button class="en-button" onclick="setLanguage('en')">EN</button>
+    </div>
+    <button class="hamburger" onclick="toggleMenu()">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="./../index.html" data-translate="navHome"></a></li>
+      <li><a href="menu.html" data-translate="navMenu"></a></li>
+      <li><a href="./../Reservations/reservations.html" data-translate="navReservations"></a></li>
+      <li><a href="#footer" data-translate="navContact"></a></li>
+    </ul>
+    </div>
+    </nav>
+    </header>
+
+    <main>
+      <div class="menu-container">
+        <span data-translate="menuImg"></span>
+
+        <h2 class="category-title" data-translate="categoryMenuTitle1"></h2>
+        <div class="menu-items">
+          <img src="./../images/burger.jpg" alt="Burgeri" class="category-img-mobile">
+          <span>
+            <div class="menu-item">
+              <span class = "menu-title-with-price">
+                <h3 data-translate="dish1Name"></h3>
+                <span class="price" data-translate="dish1Price"></span>
+              </span>
+              <p class="menu-item-description" data-translate="dish1Description"></p>
+            </div>
+            
+            <div class="menu-item">
+              <span class = "menu-title-with-price">
+                <h3 data-translate="dish2Name"></h3>
+                <span class="price" data-translate="dish2Price"></span>
+              </span>
+              <p class="menu-item-description" data-translate="dish2Description"></p>
+            </div>
+          </span>
+          <img src="./../images/burger.jpg" alt="Burgeri" class="category-img">
+        </div>
+
+        <h2 class="category-title" data-translate="categoryMenuTitle2"></h2>
+        <div class="menu-items">
+          <img src="./../images/pasta.jpg" alt="Pasta" class="category-img">
+          <img src="./../images/pasta.jpg" alt="Pasta" class="category-img-mobile">
+          <span>
+            <div class="menu-item">
+              <span class = "menu-title-with-price">
+                <h3 data-translate="dish3Name"></h3>
+                <span class="price" data-translate="dish3Price"></span>
+              </span>
+              <p class="menu-item-description" data-translate="dish3Description"></p>
+            </div>
+            
+            <div class="menu-item">
+              <span class = "menu-title-with-price">
+                <h3 data-translate="dish4Name"></h3>
+                <span class="price" data-translate="dish4Price"></span>
+              </span>
+              <p class="menu-item-description" data-translate="dish4Description"></p>
+            </div>
+          </span>
+          
+        </div>
+
+        <h2 class="category-title" data-translate="categoryMenuTitle3"></h2>
+        <div class="menu-items">
+          <img src="./../images/tiramisu.avif" alt="Dessert" class="category-img-mobile">
+          <span>
+            <div class="menu-item">
+              <span class = "menu-title-with-price">
+                <h3 data-translate="dish5Name"></h3>
+                <span class="price" data-translate="dish5Price"></span>
+              </span>
+              <p class="menu-item-description" data-translate="dish5Description"></p>
+            </div>
+            
+            <div class="menu-item">
+              <span class = "menu-title-with-price">
+                <h3 data-translate="dish6Name"></h3>
+                <span class="price" data-translate="dish6Price"></span>
+              </span>
+              <p class="menu-item-description" data-translate="dish6Description"></p>
+            </div>
+          </span>
+          <img src="./../images/tiramisu.avif" alt="Dessert" class="category-img">
+        </div>
+      </div>
+</main>
+
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3 data-translate="footerContactTitle"></h3>
+                <p data-translate="footerAddress"></p>
+                <p data-translate="footerPhone"></p>
+                <p data-translate="footerEmail"></p>
+            </div>
+            <div class="footer-section">
+                <h3 data-translate="footerHoursTitle"></h3>
+                <p data-translate="footerHoursWeekdays"></p>
+                <p data-translate="footerHoursWeekend"></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-translate="footerText"></p>
+        </div>
+    </footer>
+    <script src="./../translations.js"></script>
+    <script src="./../script.js"></script>
+</body>
+</html>

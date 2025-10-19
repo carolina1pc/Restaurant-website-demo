@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-translate="navReservations"></title>
+  <link rel="stylesheet" href="./../navbar-style.css" />
+  <link rel="stylesheet" href="reservations-style.css" />
+  <link rel="stylesheet" href="./../footer-style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+    <img class="logo" src="./../images/icons8-restaurant-100.png" alt="logo" />
+    <div class="right-items">
+    <div class="lang-switch">
+        <button class="ro-button" onclick="setLanguage('ro')">RO</button>
+        <button class="en-button" onclick="setLanguage('en')">EN</button>
+    </div>
+    <button class="hamburger" onclick="toggleMenu()">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="./../index.html" data-translate="navHome"></a></li>
+      <li><a href="./../Menu/menu.html" data-translate="navMenu"></a></li>
+      <li><a href="reservations.html" data-translate="navReservations"></a></li>
+      <li><a href="#footer" data-translate="navContact"></a></li>
+    </ul>
+    </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="rezervations-container">
+        <h1 data-translate="navReservations"></h1>
+        <p data-translate="reservationsText"></p>
+        <form
+        action="https://formspree.io/f/movkyzde"
+        method="POST"
+        class="reservation-form"
+        >
+        <div class="form-group">
+            <label for="name" data-translate="formName"></label>
+            <input class="input-form-reservations" type="text" id="name" name="name" required />
+    
+            <label for="email" data-translate="formEmail"></label>
+            <input class="input-form-reservations" type="email" id="email" name="email" required />
+    
+            <label for="phone" data-translate="formPhone"></label>
+            <input class="input-form-reservations" type="tel" id="phone" name="phone" required />
+
+            <label for="event" data-translate="formEvent"></label>
+            <select class="input-form-reservations" id="event" name="event" required>
+                <option value="" disabled selected data-translate="titleSelectType"></option>
+                <option value="dinner" data-translate="option1"></option>
+                <option value="birthday" data-translate="option2"></option>
+                <option value="wedding" data-translate="option3"></option>
+                <option value="corporate" data-translate="option4"></option>
+                <option value="other" data-translate="option5"></option>
+            </select>
+
+          </div>
+
+          <div class="form-group">
+            <label for="date" data-translate="formDate"></label>
+            <input class="input-form-reservations" type="date" id="date" name="date" required />
+    
+            <label for="time" data-translate="formTime"></label>
+            <input class="input-form-reservations" type="time" id="time" name="time" required />
+    
+            <label for="guests" data-translate="formGuests"></label>
+            <input class="input-form-reservations" type="number" id="guests" name="guests" min="1" max="200" required />
+    
+            <button class="btn-form" type="submit" data-translate="formSubmit"></button>
+          </div>
+        </form>
+
+        <p id="status-message" class="status-message"></p>
+    </div>
+  </main>
+
+  <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3 data-translate="footerContactTitle"></h3>
+                <p data-translate="footerAddress"></p>
+                <p data-translate="footerPhone"></p>
+                <p data-translate="footerEmail"></p>
+            </div>
+            <div class="footer-section">
+                <h3 data-translate="footerHoursTitle"></h3>
+                <p data-translate="footerHoursWeekdays"></p>
+                <p data-translate="footerHoursWeekend"></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-translate="footerText"></p>
+        </div>
+    </footer>
+    <script src="./../translations.js"></script>
+    <script src="./../script.js"></script>
+    <script src="./../reservations.js"></script>
+</body>
+</html>
