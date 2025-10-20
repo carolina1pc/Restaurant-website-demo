@@ -44,7 +44,7 @@ You can view the live demo here:
 
 - **HTML5**
 - **CSS3**
-- **JavaScript (Vanilla)**
+- **JavaScript**
 - **Google Fonts** (Poppins)
 
 ---
