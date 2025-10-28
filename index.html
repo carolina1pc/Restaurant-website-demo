@@ -3,22 +3,84 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title data-translate="title"></title>
+
+  <title>Grand Royale — Authentic Romanian Taste</title>
+  <meta name="description" content="Grand Royale offers traditional Romanian dishes in a cozy atmosphere.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://restaurant-demo-project.netlify.app/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Grand Royale — Authentic Romanian Taste">
+  <meta property="og:description" content="Grand Royale offers traditional Romanian dishes in a cozy atmosphere.">
+  <meta property="og:url" content="https://restaurant-demo-project.netlify.app/">
+  <meta property="og:image" content="https://restaurant-demo-project.netlify.app/images/index.webp">
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Grand Royale — Authentic Romanian Taste">
+  <meta name="twitter:description" content="Grand Royale offers traditional Romanian dishes in a cozy atmosphere.">
+  <meta name="twitter:image" content="https://restaurant-demo-project.netlify.app/images/index.webp">
+  
   <link rel="stylesheet" href="navbar-style.css" />
   <link rel="stylesheet" href="home-container-style.css" />
   <link rel="stylesheet" href="footer-style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Grand Royale",
+  "image": "https://restaurant-demo-project.netlify.app/images/og-image.jpg",
+  "url": "https://restaurant-demo-project.netlify.app/",
+  "telephone": "+40 123 456 789",
+  "email": "restaurant@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Example Street 123",
+    "addressLocality": "Bucharest",
+    "addressCountry": "Romania",
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "10:00",
+      "closes": "22:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "12:00",
+      "closes": "23:00"
+    }
+  ],
+  "priceRange": "$$",
+  "servesCuisine": ["Romanian", "Traditional"],
+  "sameAs": []
+}
+</script>
 </head>
 
 <body>
     <header>
     <nav class="navbar">
     <img class="logo" src="./images/icons8-restaurant-100.png" alt="logo" />
+
     <div class="right-items">
     <div class="lang-switch">
         <button class="ro-button" onclick="setLanguage('ro')">RO</button>
         <button class="en-button" onclick="setLanguage('en')">EN</button>
     </div>
+
     <button class="hamburger" onclick="toggleMenu()">☰</button>
     <ul class="nav-links" id="navLinks">
       <li><a href="index.html" data-translate="navHome"></a></li>
@@ -38,6 +100,7 @@
                 <p data-translate="homeSubtitle"></p>
             </section>
             </div>
+
             <section class="about-container">
                 <h2 data-translate="aboutTitle"></h2>
                 <p data-translate="aboutText"></p>
@@ -48,6 +111,7 @@
                     <img class="about-img-items" src="images/preparate-de-top-si-wine-pairing-la-un-faimos-restaurant-din-sibiu.jpg" alt="Image 3" />
                 </div>
             </section>
+
             <section class="events-container">
                 <h2 data-translate="eventsTitle"></h2>
                 <div class="events-items-container">
