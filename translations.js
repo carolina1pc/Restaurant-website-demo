@@ -6,7 +6,7 @@ const translations = {
     navContact: "Contact",
     navReservations: "Rezervări",
 
-    homeTitle: "Bun venit la Grand Royale Restaurant",
+    homeTitle: "Bun venit la Restaurant Grand Royale",
     homeSubtitle: "Experiența culinară supremă",
     aboutTitle: "Despre noi",
     aboutText: "La Grand Royale, ne mândrim cu oferirea unei experiențe culinare de neuitat. Bucătarii noștri talentați folosesc doar cele mai proaspete ingrediente pentru a crea preparate delicioase care să satisfacă toate gusturile.",
