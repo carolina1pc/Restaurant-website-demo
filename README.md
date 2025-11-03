@@ -3,7 +3,8 @@
 A modern and responsive restaurant website built with **HTML**, **CSS**, and **JavaScript**.  
 Designed with a **dark theme** and a simple **reservation form**.
 
-<img width="1406" height="852" alt="image" src="https://github.com/user-attachments/assets/d3d55e48-9884-4bd1-84aa-868cc0213732" />
+<img width="1343" height="866" alt="image" src="https://github.com/user-attachments/assets/5a99d669-89b4-4897-a659-0cf8a897d7b1" />
+
 
 
 ---
