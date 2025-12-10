@@ -76,7 +76,7 @@ const translations = {
     navContact: "Contact",
     navReservations: "Reservations",
 
-    homeTitle: "Welcome to Grand Royale Restaurant",
+    homeTitle: "Welcome to Grand Royale Restaurant2",
     homeSubtitle: "The ultimate dining experience",
     aboutTitle: "About Us",
     aboutText: "At Grand Royale, we pride ourselves on providing an unforgettable dining experience. Our talented chefs use only the freshest ingredients to create delicious dishes that cater to all tastes.",
